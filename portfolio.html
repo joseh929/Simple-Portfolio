@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph's Portfolio</title>
+     <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; }
+            header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; text-align: center; }
+            header h1 { font-size: 2.5em; margin-bottom: 10px; }
+            nav ul { list-style: none; display: flex; justify-content: center; gap: 30px; margin-top: 20px; }
+            nav a { color: white; text-decoration: none; padding: 10px 15px; background: rgba(255,255,255,0.2); border-radius: 5px; transition: 0.3s; }
+            nav a:hover { background: rgba(255,255,255,0.3); transform: translateY(-2px); }
+            section { margin-bottom: 40px; padding: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+            h2 { color: #667eea; border-bottom: 2px solid #667eea; padding-bottom: 10px; margin-bottom: 20px; }
+            h3 { color: #764ba2; margin: 20px 0 10px 0; }
+            article { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; border-left: 4px solid #667eea; }
+            ul li { margin: 5px 0; }
+            a { color: #667eea; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            address { font-style: normal; }
+            footer { text-align: center; padding: 20px; margin-top: 30px; border-top: 2px solid #eee; }
+            @media (max-width: 768px) {
+                nav ul { flex-direction: column; gap: 10px; }
+                header h1 { font-size: 2em; }
+                body { padding: 10px; }
+            }
+        </style>
+    </head>
+    <body>
+          <header>
+        <h1>JOSEPH NDIRANGU PORTFOLIO</h1>
+        <p><strong>Web Developer & Designer</strong></p>
+        
+        <nav>
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I'm a passionate web developer with over 2 years of experience 
+                creating modern, responsive websites and applications. I specialize in both frontend and 
+                backend development, with a keen eye for user experience and clean, maintainable code.
+            </p>
+            <p>
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+                projects, or hiking in the mountains. I believe in continuous learning and staying up-to-date 
+                with the latest industry trends and best practices.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            
+            <article>
+                <h3>E-Commerce Platform</h3>
+                <p>
+                    <strong>Description:</strong> A fully responsive e-commerce website built with modern 
+                    web technologies. Features include user authentication, shopping cart functionality, 
+                    payment processing, and an admin dashboard for inventory management.
+                </p>
+                <p><strong>Technologies Used:</strong></p>
+                <ul>
+                    <li>Frontend: HTML5, CSS3, JavaScript, React</li>
+                    <li>Backend: Node.js, Express.js</li>
+                    <li>Database: MongoDB</li>
+                    <li>Payment: Stripe API</li>
+                </ul>
+                <p><strong>Key Features:</strong></p>
+                <p>
+                    <a href="https://github.com/josephndirangu/ecommerce-platform" target="_blank">View on GitHub</a> | 
+                    <a href="https://ecommerce-demo.josephndirangu.dev" target="_blank">Live Demo</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Task Management Application</h3>
+                <p>
+                    <strong>Description:</strong> A collaborative project management tool that helps teams 
+                    organize tasks, track progress, and meet deadlines. Built with a focus on simplicity 
+                    and user experience.
+                </p>
+                <p><strong>Technologies Used:</strong></p>
+                <ul>
+                    <li>Frontend: Vue.js, HTML5, CSS3</li>
+                    <li>Backend: Python, Django</li>
+                    <li>Database: PostgreSQL</li>
+                    <li>Real-time: WebSockets</li>
+                </ul>
+                <p>
+                    <a href="https://github.com/josephndirangu/task-manager" target="_blank">View on GitHub</a> | 
+                    <a href="https://taskmanager.josephndirangu.dev" target="_blank">Live Demo</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Weather Analytics Dashboard</h3>
+                <p>
+                    <strong>Description:</strong> An interactive dashboard that displays weather data with 
+                    beautiful charts and graphs. Includes historical data analysis and weather predictions 
+                    using machine learning algorithms.
+                </p>
+                <p><strong>Technologies Used:</strong></p>
+                <ul>
+                    <li>Frontend: HTML5, CSS3, JavaScript, D3.js</li>
+                    <li>Backend: Python, Flask</li>
+                    <li>Database: SQLite</li>
+                    <li>APIs: OpenWeatherMap, Weather Underground</li>
+                </ul>
+                <p>
+                    <a href="https://github.com/joseh929/GreenHouse-AI-System-for-Semi-Arid-places" target="_blank">View on GitHub</a> | 
+                    <a href="https://weather.josephndirangu.dev" target="_blank">Live Demo</a>
+                </p>
+            </article>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>JavaScript </li>
+                <li>Python</li>
+                <li>TypeScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SQL</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+                <section id="contact">
+            <h2>Contact Information</h2>
+            <p>
+                I'm always interested in discussing new opportunities, collaborating on projects, 
+                or simply talking about technology. Feel free to reach out through any of the 
+                following channels:
+            </p>
+            
+            <h3>Get In Touch</h3>
+            <address>
+                <p><strong>Email:</strong> <a href="ndiranguj929@gmail.com">ndiranguj929@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+254794208401">+254794208401</a></p>
+                <p><strong>Location:</strong> Dedan Kimathi, Nyeri, Kenya</p>
+            </address>
+              </main>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p>&copy; 2025 Joseph Ndirangu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
